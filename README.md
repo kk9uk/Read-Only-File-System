@@ -1,5 +1,5 @@
 # Read-only File System
-On top of a hard disk simulation file ***SOFTDISK****, *ROFS* exposes the following syscalls:
+On top of a hard disk simulation file ***SOFTDISK****, *ROFS* exposes the following system calls:
 > int open_t(char* pathname)
 
     Given an absolute path of a file, open_t() returns the corresponding inode number or -1
